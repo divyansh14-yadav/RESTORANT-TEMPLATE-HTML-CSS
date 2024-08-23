@@ -1,0 +1,113 @@
+.aboutParentdiv {
+    display: flex;
+}
+
+.aboutChildDiv1 {
+    width: 50%;
+}
+
+.img1 {
+    height: 300px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+     /* width: "100%"; */
+    width: 400px; 
+
+}
+
+.img2 {
+    height: 300px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+    /* width: "100%"; */
+    width: 320px;
+    padding-right: 106px;
+    padding-top: 82px;
+
+}
+
+.img3 {
+    height: 300px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+    /* width: "100%"; */
+    width: 320px;
+    padding-left: 106px;
+    padding-bottom: 82px;
+}
+
+.img4 {
+    height: 300px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+    /* width: "100%"; */
+    width: 390px;
+    /* padding-left: 106px; */
+
+
+}
+
+.aboutChildDiv2 {
+    width: 50%;
+    padding-top: 130px;
+    padding-left: 20px;
+}
+.imageparantDiv{
+    display: flex;
+    padding-top: 50px;
+}
+.imageparantDiv1{
+    display: flex;
+    padding-top: 25px;
+}
+.classDivHeading{
+    color: orange;
+    font-weight: 400;
+    font-size: 1.50rem;
+    font-family: cursive;
+}
+.childDivHeading1{
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 2.5rem
+}
+.childDivPara1{
+    width: 542px;
+    color: #666565;
+    padding-top: 30px;
+}
+.wholeExpSectionDiv{
+    display: flex;
+    padding-top: 30px;
+}
+.childDivExpSection{
+    display: flex;
+    padding-left: 10px;
+}
+.childDivExpSection2{
+    display: flex;
+    padding-left: 10px;
+}.childDivExpSectionHeading{
+    color: orange;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-right: 10px;
+}
+.childDivExpSectionDiv{
+    padding: 10px 0px 0px 20px;
+}
+.expSectionButtonParent{
+    padding-top: 30px;
+}
+.expSectionButton{
+    border: none;
+    background-color: orange;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: large;
+}

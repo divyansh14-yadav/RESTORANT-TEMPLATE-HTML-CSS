@@ -1,0 +1,77 @@
+.contactUsHeading {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contactUsHeading2 {
+    font-family: cursive;
+    color: orange;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.contactUsHeading3 {
+    font-size: 2.5rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    color: 0F172B;
+    line-height: 1.2;
+}
+.contactUsParentDiv{
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    padding-top: 25px;
+}
+.contactUsHeading22{
+    color: orange;
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-family: cursive;
+}
+.contactUsHeading33{
+    display: flex;
+}
+.contactUsPara15{
+    padding-left: 10px;
+}
+.divContactUs{
+    display: flex;
+    padding-top: 30px;
+}
+.contactUsInput{
+    height: 53px;
+    width: 245px;
+    padding-left: 10px;
+}
+/* .contactUsInput::placeholder{
+    text-align: center;
+} */
+.contactUsInput1{
+     height: 53px;
+    width: 245px;  
+   /* padding-top: 10px; 
+    padding-right: 20px; */
+    padding-right: 250px;
+    margin-top: 20px;
+    width: 495px;
+    padding-left: 10px;
+}
+.contactUsInput2{
+    height: 153px;
+    width: 245px;
+    /* padding-right: 250px; */
+    margin-top: 20px;
+    width: 495px;
+    padding-left: 10px;
+}
+.contactUsButton{
+    border: none;
+    background-color: orange;
+    color: white;
+    width: 495;
+    height: 53px;
+    margin-top: 20px;
+    cursor: pointer;
+}

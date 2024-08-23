@@ -1,0 +1,185 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.brand-name {
+    color: orange;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.parent-list-div {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+}
+
+.nav1 {
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(15, 23, 43, .9);
+
+}
+
+.nav-list {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.nav-list:hover {
+    color: orange;
+    transition: 0.5s;
+}
+
+.nav-list.active {
+    color: orange;
+}
+
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 3.5px;
+    cursor: pointer;
+    height: 40px;
+    width: 170px;
+    margin: -7px;
+}
+
+.select-pages {
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: white;
+    width: 80px;
+}
+
+.select-pages-options {
+    color: black;
+    background-color: none;
+    min-width: 100px;
+}
+
+.image-text {
+    color: white;
+    font-size: xxx-large;
+    width: 361px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.image-paragraph {
+    color: white;
+    width: 414px;
+    padding-bottom: 20px;
+}
+
+.paragraph-image {
+    height: 510px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+    width: "100%";
+    /* -webkit-animation: spin 18s linear infinite;
+    -moz-animation: spin 18s linear infinite;
+    animation: spin 18s linear infinite */
+}
+
+/* @-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+} */
+
+.cardChildDiv {
+    width: 260px;
+    height: 270px;
+    /* background-color: orange; */
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    padding: 27px
+}
+
+.cardChildDiv:hover {
+    background: orange;
+    transition: 0.5s;
+}
+
+.CardParentDiv {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cardFaIcon {
+    margin-bottom: 16px;
+    color: orange;
+}
+
+.cardHeading {
+    margin-bottom: 16px;
+
+}
+
+
+#check:checked ~ .nav-mobile {
+    display: block;
+   }
+   nav {
+    padding: 1.5rem 2rem;
+    background-color: #222831;
+    color: #fff;
+   }
+   .check{
+    display: none;
+   }
+   .checkbtn {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 2rem;
+    top: 30px;
+   }
+   .bar{
+    width: 10px;
+    width: 5px;
+   }
+   .nav-mobile {
+    position: absolute;
+    
+    background: #222831;
+    margin-left: 500px;
+    margin-top: 50px;
+    z-index: 1;
+    width: 200px;
+   }
+   .nav-mobile a {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: block;
+   }
+   .nav-mobile {
+    display: none;
+   }
